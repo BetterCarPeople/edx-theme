@@ -123,11 +123,12 @@
             }
 
             .course {
-                box-shadow: none;
                 background: none;
-                border-radius: 0;
+                box-shadow: none;
+                border-radius: 5px;
                 background-color: @white;
-                border: 1px solid @white;
+                border: 1px solid darken(@color-background, 3%);
+                overflow: hidden;
 
                 &:hover {
                     box-shadow: none;
@@ -187,6 +188,11 @@
                     }
                 }
 
+                .course-info {
+                    h2 {
+                        font-family: @font-family-sans-serif;
+                    }
+                }
             }
         }
     }

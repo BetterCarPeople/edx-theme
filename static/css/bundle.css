@@ -1,4 +1,943 @@
-@import url('bundle-blessed3.css?z=1439231027583');
-@import url('bundle-blessed2.css?z=1439231027583');
-@import url('bundle-blessed1.css?z=1439231027583');
-.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.active.focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.active:focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.active:hover,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:active.focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:active:focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:active:hover,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.focus,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:focus,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:hover{color:#fff;background-color:#d08d1c;border-color:#bfbfbf}.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.active,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:active,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a{background-image:none}.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.disabled,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.disabled.active,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.disabled.focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.disabled:active,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.disabled:focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.disabled:hover,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a[disabled],.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a[disabled].active,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a[disabled].focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a[disabled]:active,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a[disabled]:focus,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a[disabled]:hover,fieldset[disabled] .content-wrapper>.dashboard .my-courses .empty-dashboard-message>a,fieldset[disabled] .content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.active,fieldset[disabled] .content-wrapper>.dashboard .my-courses .empty-dashboard-message>a.focus,fieldset[disabled] .content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:active,fieldset[disabled] .content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:focus,fieldset[disabled] .content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:hover{background-color:#e9b459;border-color:#fff}.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a .badge{color:#e9b459;background-color:#fff}@media (max-width:767px){.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a{white-space:normal}}.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:focus{background-color:#e9b459}.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:active,.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:focus{background:#fff;color:#e9b459;box-shadow:none;border-color:#e9b459;outline:0}.content-wrapper>.dashboard .my-courses .empty-dashboard-message>a:hover{background:#fff;color:#e9b459;border-color:#e9b459;box-shadow:none}.content-wrapper>.dashboard .my-courses .listing-courses .course-item{margin:0 0 30px;transition:all .1s ease-in;background-color:#fff;border:1px solid #ddd;border-radius:4px;padding:15px}@media (min-width:768px) and (max-width:991px){.content-wrapper>.dashboard .my-courses .listing-courses .course-item{width:352px;margin-right:10px;display:inline-block;vertical-align:top}.content-wrapper>.dashboard .my-courses .listing-courses .course-item:nth-of-type(even){margin-right:0}}.content-wrapper>.dashboard .my-courses .listing-courses .course-item:hover{border-color:#3585c0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item:last-child{margin:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover{width:200px;height:auto;background-color:#f7f7f7;transition:none;max-height:none;text-align:center;border:1px solid #f7f7f7;border-radius:4px;float:left;display:block}@media (max-width:991px){.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover{width:100%;height:auto;float:none;margin-bottom:20px}}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover img{min-height:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover div{text-align:center;font-weight:600;font-size:.9em}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover div.cover-university{color:#3585c0;font-weight:600;font-size:.9em}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover div.cover-course-status.course-soon{color:#bdc3c7}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover div.cover-course-status.course-open{color:#66a54e}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover div.cover-course-status.course-ended{color:#da4444}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info{width:100%;height:auto;padding:0;margin:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup{margin:0}@media (min-width:992px){.content-wrapper>.dashboard .my-courses .listing-courses .course-item .cover img{width:100%;height:auto;max-height:120px}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info{width:auto;height:auto;overflow:hidden;padding:0 0 0 1em}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup{margin:0 0 38px}}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup h3{margin-top:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup h3 a,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup h3 span{font:inherit}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup .university{font:inherit;color:inherit;margin:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup .date-block{font:inherit;color:inherit;font-size:.9em;position:static}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .email-settings,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .unenroll{font:inherit;color:inherit;font-size:.8em;margin-top:15px;text-decoration:underline}@media (min-width:992px){.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hgroup .date-block{position:absolute;top:0;right:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .email-settings,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .unenroll{display:inline;float:right;vertical-align:bottom;margin:1.2em 0 0 .5em}}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info h4{margin:0 1em .5em 0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info hr{display:none}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info p{font-size:.9em;margin:0 0 1em}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course{font:inherit;background:#e9b459;display:inline-block;font-weight:400;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;border:1px solid #e9b459;white-space:nowrap;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#fff;text-shadow:none;text-overflow:ellipsis;transition:all .1s ease-in;box-shadow:none;margin:0;padding:.5em 1.2em;outline:0;overflow:hidden;width:100%;height:auto;font-size:.9em}.content-wrapper>.login .content form .form-actions button[type=submit],.content-wrapper>.register .content form .form-actions button[type=submit]{-ms-touch-action:manipulation;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;text-align:center;vertical-align:middle;text-shadow:none;text-overflow:ellipsis;transition:all .1s ease-in;overflow:hidden}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:hover{text-decoration:none}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled],fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course{cursor:not-allowed;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus{color:#fff;background-color:#e3a02c;border-color:#bfbfbf}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:hover,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course{color:#fff;background-color:#e3a02c;border-color:#e0e0e0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active:hover,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active:hover,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:hover{color:#fff;background-color:#d08d1c;border-color:#bfbfbf}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active,.open>.dropdown-toggle.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course{background-image:none}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled.active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled.focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled:active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.disabled:hover,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled],.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled].active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled].focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled]:active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled]:focus,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course[disabled]:hover,fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course,fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.active,fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course.focus,fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active,fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus,fieldset[disabled] .content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:hover{background-color:#e9b459;border-color:#fff}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course .badge{color:#e9b459;background-color:#fff}@media (max-width:767px){.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course{white-space:normal}}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus{background-color:#e9b459}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:active,.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:focus{background:#fff;color:#e9b459;box-shadow:none;border-color:#e9b459;outline:0}.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course:hover{background:#fff;color:#e9b459;border-color:#e9b459;box-shadow:none}@media (min-width:992px){.content-wrapper>.dashboard .my-courses .listing-courses .course-item .info .enter-course{width:auto;height:auto}}.content-wrapper>.register{width:auto;height:auto;margin-right:auto;margin-left:auto;min-width:0;max-width:none;margin-top:30px;background:0 0;padding:0 15px}@media (min-width:768px){.content-wrapper>.register{width:750px}}@media (min-width:992px){.content-wrapper>.register{width:970px}}@media (min-width:1200px){.content-wrapper>.register{width:1170px}}.content-wrapper>.register>.navbar-collapse,.content-wrapper>.register>.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.content-wrapper>.register>.navbar-collapse,.content-wrapper>.register>.navbar-header{margin-right:0;margin-left:0}}.content-wrapper>.register .content{width:100%;height:auto;margin:0}@media (min-width:992px){.content-wrapper>.register .content{margin-right:-300px;padding-right:340px;float:left}}.content-wrapper>.register .content a{font:inherit;color:#3585c0}.content-wrapper>.register .content form .status{outline:0;box-shadow:none;border:0;background:0 0;margin:0 0 20px;padding:15px 20px;color:inherit;border-radius:4px}.content-wrapper>.register .content form .status h2,.content-wrapper>.register .content form .status h3,.content-wrapper>.register .content form .status h4,.content-wrapper>.register .content form .status h5{font:inherit;text-transform:none;margin:0;color:inherit;letter-spacing:normal;font-weight:600}.content-wrapper>.register .content form .status p,.content-wrapper>.register .content form .status ul{font:inherit;color:inherit}.content-wrapper>.register .content form .status p:last-child,.content-wrapper>.register .content form .status ul:last-child{margin-bottom:0}.content-wrapper>.register .content form .status a{color:inherit;text-decoration:underline}.content-wrapper>.register .content form .status.alert-warning{background-color:#ecbe70;color:#fff}.content-wrapper>.register .content form .status.alert-danger,.content-wrapper>.register .content form .status.alert-error{background-color:#de5959;color:#fff}.content-wrapper>.register .content form .status.alert-info{background-color:#4392cb;color:#fff}.content-wrapper>.register .content form .status.alert-success{background-color:#73b15b;color:#fff}.content-wrapper>.register .content form .status.submission-error{outline:0;box-shadow:none;border:0;background:#de5959;margin:0 0 20px;padding:15px 20px;border-radius:4px;color:#fff}.content-wrapper>.register .content form .status.submission-error h2,.content-wrapper>.register .content form .status.submission-error h3,.content-wrapper>.register .content form .status.submission-error h4,.content-wrapper>.register .content form .status.submission-error h5{font:inherit;text-transform:none;margin:0;color:inherit;letter-spacing:normal;font-weight:600}.content-wrapper>.register .content form .status.submission-error p,.content-wrapper>.register .content form .status.submission-error ul{font:inherit;color:inherit}.content-wrapper>.register .content form .status.submission-error p:last-child,.content-wrapper>.register .content form .status.submission-error ul:last-child{margin-bottom:0}.content-wrapper>.register .content form .status.submission-error a{color:inherit;text-decoration:underline}.content-wrapper>.register .content form .status.submission-error.alert-warning{background-color:#ecbe70;color:#fff}.content-wrapper>.register .content form .status.submission-error.alert-danger,.content-wrapper>.register .content form .status.submission-error.alert-error{background-color:#de5959;color:#fff}.content-wrapper>.register .content form .status.submission-error.alert-info{background-color:#4392cb;color:#fff}.content-wrapper>.register .content form .status.submission-error.alert-success{background-color:#73b15b;color:#fff}.content-wrapper>.register .content form .list-input{color:inherit;font:inherit}.content-wrapper>.register .content form .list-input>li{position:relative}.content-wrapper>.register .content form .list-input>li .checkbox{padding-left:0}.content-wrapper>.register .content form .list-input>li .checkbox input{width:auto;height:auto;margin:6px 8px 0 0}.content-wrapper>.register .content form .list-input>li .tip{color:inherit}.content-wrapper>.register .content form label{font:inherit;color:inherit;text-shadow:none}.content-wrapper>.register .content form input{font:inherit;color:inherit;display:inline-block;margin:0}.content-wrapper>.register .content form div.squaredThree{position:relative;margin:0 0 0 1px;display:block;float:left}.content-wrapper>.register .content form div.squaredThree+label{display:block;margin:0 0 .5em;padding:0 0 0 2em}.content-wrapper>.register .content form div.squaredThree:active,.content-wrapper>.register .content form div.squaredThree:focus{outline:0}.content-wrapper>.register .content form div.squaredThree label{width:1.4em;height:1.4em;margin:0;cursor:pointer;position:absolute;border:1px solid #fff;border-radius:4px;background-color:#3585c0;text-align:center;top:2px;left:-1px}.content-wrapper>.register .content form div.squaredThree label:after{font-family:FontAwesome;background:0 0;color:transparent;content:'\f00c';position:absolute;top:-2px;left:2px}.content-wrapper>.register .content form div.squaredThree label:hover:after{color:rgba(8,8,8,.4)}.content-wrapper>.register .content form div.squaredThree input[type=checkbox]:checked+label:after{color:#fff}.content-wrapper>.register .content form .field.is-focused label{color:#3585c0}.content-wrapper>.register .content form input[type=email],.content-wrapper>.register .content form input[type=password],.content-wrapper>.register .content form input[type=text],.content-wrapper>.register .content form textarea{-webkit-font-smoothing:auto;-webkit-appearance:none;background:#fff;font:inherit;color:inherit;box-shadow:none;border-radius:4px;border:2px solid #ddd;outline:0;padding:.6em 1em;transition:all .1s ease-in}.content-wrapper>.register .content form input[type=email]+span:after,.content-wrapper>.register .content form input[type=password]+span:after,.content-wrapper>.register .content form input[type=text]+span:after,.content-wrapper>.register .content form textarea+span:after{display:inline-block;font-family:FontAwesome;font-size:1.5em;position:absolute;z-index:10;top:.2em;right:.5em}.content-wrapper>.register .content form input[type=email].valid-input,.content-wrapper>.register .content form input[type=password].valid-input,.content-wrapper>.register .content form input[type=text].valid-input,.content-wrapper>.register .content form textarea.valid-input{border-color:#66a54e}.content-wrapper>.register .content form input[type=email].valid-input+span:after,.content-wrapper>.register .content form input[type=password].valid-input+span:after,.content-wrapper>.register .content form input[type=text].valid-input+span:after,.content-wrapper>.register .content form textarea.valid-input+span:after{color:#66a54e;content:'\f058'}.content-wrapper>.register .content form input[type=email].invalid-input,.content-wrapper>.register .content form input[type=password].invalid-input,.content-wrapper>.register .content form input[type=text].invalid-input,.content-wrapper>.register .content form textarea.invalid-input{border-color:#da4444}.content-wrapper>.register .content form input[type=email].invalid-input+span:after,.content-wrapper>.register .content form input[type=password].invalid-input+span:after,.content-wrapper>.register .content form input[type=text].invalid-input+span:after,.content-wrapper>.register .content form textarea.invalid-input+span:after{color:#da4444;content:'\f057'}.content-wrapper>.register .content form input[type=email]:active,.content-wrapper>.register .content form input[type=email]:focus,.content-wrapper>.register .content form input[type=password]:active,.content-wrapper>.register .content form input[type=password]:focus,.content-wrapper>.register .content form input[type=text]:active,.content-wrapper>.register .content form input[type=text]:focus,.content-wrapper>.register .content form textarea:active,.content-wrapper>.register .content form textarea:focus{border-color:#3585c0;box-shadow:none}.content-wrapper>.register .content form input[type=email]:active+span:after,.content-wrapper>.register .content form input[type=email]:focus+span:after,.content-wrapper>.register .content form input[type=password]:active+span:after,.content-wrapper>.register .content form input[type=password]:focus+span:after,.content-wrapper>.register .content form input[type=text]:active+span:after,.content-wrapper>.register .content form input[type=text]:focus+span:after,.content-wrapper>.register .content form textarea:active+span:after,.content-wrapper>.register .content form textarea:focus+span:after{color:#3585c0}.content-wrapper>.register .content form .group-form-personalinformation,.content-wrapper>.register .content form .group-form-personalinformation2{display:none}.content-wrapper>.register .content form .group-form-accountacknowledgements{position:relative}.content-wrapper>.register .content form .form-actions button[type=submit]{width:auto;height:auto;font:inherit;background:#e9b459;display:inline-block;touch-action:manipulation;cursor:pointer;border:1px solid #e9b459;white-space:nowrap;font-size:14px;line-height:1.42857143;border-radius:4px;user-select:none;color:#fff;box-shadow:none;margin:0;padding:.5em 1.2em;outline:0;font-weight:600}.content-wrapper>.register .content form .form-actions button[type=submit].active.focus,.content-wrapper>.register .content form .form-actions button[type=submit].active:focus,.content-wrapper>.register .content form .form-actions button[type=submit].focus,.content-wrapper>.register .content form .form-actions button[type=submit]:active.focus,.content-wrapper>.register .content form .form-actions button[type=submit]:active:focus,.content-wrapper>.register .content form .form-actions button[type=submit]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.content-wrapper>.register .content form .form-actions button[type=submit].focus,.content-wrapper>.register .content form .form-actions button[type=submit]:focus,.content-wrapper>.register .content form .form-actions button[type=submit]:hover{text-decoration:none}.content-wrapper>.register .content form .form-actions button[type=submit].active,.content-wrapper>.register .content form .form-actions button[type=submit]:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.content-wrapper>.register .content form .form-actions button[type=submit].disabled,.content-wrapper>.register .content form .form-actions button[type=submit][disabled],fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit]{cursor:not-allowed;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.content-wrapper>.register .content form .form-actions button[type=submit].focus,.content-wrapper>.register .content form .form-actions button[type=submit]:focus{color:#fff;background-color:#e3a02c;border-color:#bfbfbf}.content-wrapper>.register .content form .form-actions button[type=submit].active,.content-wrapper>.register .content form .form-actions button[type=submit]:active,.content-wrapper>.register .content form .form-actions button[type=submit]:hover,.open>.dropdown-toggle.content-wrapper>.register .content form .form-actions button[type=submit]{color:#fff;background-color:#e3a02c;border-color:#e0e0e0}.content-wrapper>.register .content form .form-actions button[type=submit].active.focus,.content-wrapper>.register .content form .form-actions button[type=submit].active:focus,.content-wrapper>.register .content form .form-actions button[type=submit].active:hover,.content-wrapper>.register .content form .form-actions button[type=submit]:active.focus,.content-wrapper>.register .content form .form-actions button[type=submit]:active:focus,.content-wrapper>.register .content form .form-actions button[type=submit]:active:hover,.open>.dropdown-toggle.content-wrapper>.register .content form .form-actions button[type=submit].focus,.open>.dropdown-toggle.content-wrapper>.register .content form .form-actions button[type=submit]:focus,.open>.dropdown-toggle.content-wrapper>.register .content form .form-actions button[type=submit]:hover{color:#fff;background-color:#d08d1c;border-color:#bfbfbf}.content-wrapper>.register .content form .form-actions button[type=submit].active,.content-wrapper>.register .content form .form-actions button[type=submit]:active,.open>.dropdown-toggle.content-wrapper>.register .content form .form-actions button[type=submit]{background-image:none}.content-wrapper>.register .content form .form-actions button[type=submit].disabled,.content-wrapper>.register .content form .form-actions button[type=submit].disabled.active,.content-wrapper>.register .content form .form-actions button[type=submit].disabled.focus,.content-wrapper>.register .content form .form-actions button[type=submit].disabled:active,.content-wrapper>.register .content form .form-actions button[type=submit].disabled:focus,.content-wrapper>.register .content form .form-actions button[type=submit].disabled:hover,.content-wrapper>.register .content form .form-actions button[type=submit][disabled],.content-wrapper>.register .content form .form-actions button[type=submit][disabled].active,.content-wrapper>.register .content form .form-actions button[type=submit][disabled].focus,.content-wrapper>.register .content form .form-actions button[type=submit][disabled]:active,.content-wrapper>.register .content form .form-actions button[type=submit][disabled]:focus,.content-wrapper>.register .content form .form-actions button[type=submit][disabled]:hover,fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit],fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit].active,fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit].focus,fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit]:active,fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit]:focus,fieldset[disabled] .content-wrapper>.register .content form .form-actions button[type=submit]:hover{background-color:#e9b459;border-color:#fff}.content-wrapper>.register .content form .form-actions button[type=submit] .badge{color:#e9b459;background-color:#fff}.content-wrapper>.register .content form .form-actions button[type=submit]:focus{background-color:#e9b459}.content-wrapper>.register .content form .form-actions button[type=submit]:active,.content-wrapper>.register .content form .form-actions button[type=submit]:focus{background:#fff;color:#e9b459;box-shadow:none;border-color:#e9b459;outline:0}.content-wrapper>.register .content form .form-actions button[type=submit]:hover{background:#fff;color:#e9b459;border-color:#e9b459;box-shadow:none}@media (min-width:992px){.content-wrapper>.register .content form .form-actions button[type=submit]{width:auto;height:auto;padding-left:2.5em;padding-right:2.5em}}.content-wrapper>.register aside{width:300px;height:auto;padding:0;margin:0;float:right}@media (max-width:767px){.content-wrapper>.register .content form .form-actions button[type=submit]{white-space:normal}.content-wrapper>.register aside{display:none!important}}@media (min-width:768px) and (max-width:991px){.content-wrapper>.register aside{display:none!important}}.content-wrapper>.register aside p{font:inherit;color:inherit;font-size:.9em}.content-wrapper>.login .content a,.content-wrapper>.register aside a{color:#3585c0;font:inherit}.content-wrapper>.login{width:auto;height:auto;margin-right:auto;margin-left:auto;min-width:0;max-width:none;margin-top:30px;background:0 0;padding:0 15px}@media (min-width:768px){.content-wrapper>.login{width:750px}}@media (min-width:992px){.content-wrapper>.login{width:970px}}@media (min-width:1200px){.content-wrapper>.login{width:1170px}}.content-wrapper>.login>.navbar-collapse,.content-wrapper>.login>.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.content-wrapper>.login>.navbar-collapse,.content-wrapper>.login>.navbar-header{margin-right:0;margin-left:0}}.content-wrapper>.login .content{width:100%;height:auto;margin:0}@media (min-width:992px){.content-wrapper>.login .content{margin-right:-300px;padding-right:340px;float:left}}.content-wrapper>.login .content form .status{outline:0;box-shadow:none;border:0;background:0 0;margin:0 0 20px;padding:15px 20px;color:inherit;border-radius:4px}.content-wrapper>.login .content form .status h2,.content-wrapper>.login .content form .status h3,.content-wrapper>.login .content form .status h4,.content-wrapper>.login .content form .status h5{font:inherit;text-transform:none;margin:0;color:inherit;letter-spacing:normal;font-weight:600}.content-wrapper>.login .content form .status p,.content-wrapper>.login .content form .status ul{font:inherit;color:inherit}.content-wrapper>.login .content form .status p:last-child,.content-wrapper>.login .content form .status ul:last-child{margin-bottom:0}.content-wrapper>.login .content form .status a{color:inherit;text-decoration:underline}.content-wrapper>.login .content form .status.alert-warning{background-color:#ecbe70;color:#fff}.content-wrapper>.login .content form .status.alert-danger,.content-wrapper>.login .content form .status.alert-error{background-color:#de5959;color:#fff}.content-wrapper>.login .content form .status.alert-info{background-color:#4392cb;color:#fff}.content-wrapper>.login .content form .status.alert-success{background-color:#73b15b;color:#fff}.content-wrapper>.login .content form .status.submission-error{outline:0;box-shadow:none;border:0;background:#de5959;margin:0 0 20px;padding:15px 20px;border-radius:4px;color:#fff}.content-wrapper>.login .content form .status.submission-error h2,.content-wrapper>.login .content form .status.submission-error h3,.content-wrapper>.login .content form .status.submission-error h4,.content-wrapper>.login .content form .status.submission-error h5{font:inherit;text-transform:none;margin:0;color:inherit;letter-spacing:normal;font-weight:600}.content-wrapper>.login .content form .status.submission-error p,.content-wrapper>.login .content form .status.submission-error ul{font:inherit;color:inherit}.content-wrapper>.login .content form .status.submission-error p:last-child,.content-wrapper>.login .content form .status.submission-error ul:last-child{margin-bottom:0}.content-wrapper>.login .content form .status.submission-error a{color:inherit;text-decoration:underline}.content-wrapper>.login .content form .status.submission-error.alert-warning{background-color:#ecbe70;color:#fff}.content-wrapper>.login .content form .status.submission-error.alert-danger,.content-wrapper>.login .content form .status.submission-error.alert-error{background-color:#de5959;color:#fff}.content-wrapper>.login .content form .status.submission-error.alert-info{background-color:#4392cb;color:#fff}.content-wrapper>.login .content form .status.submission-error.alert-success{background-color:#73b15b;color:#fff}.content-wrapper>.login .content form .list-input{color:inherit;font:inherit}.content-wrapper>.login .content form .list-input>li{position:relative;padding-left:0}.content-wrapper>.login .content form .list-input>li.checkbox input{width:auto;height:auto;margin:6px 8px 0 0}.content-wrapper>.login .content form .list-input>li .tip{color:inherit}.content-wrapper>.login .content form label{font:inherit;color:inherit;text-shadow:none}.content-wrapper>.login .content form input{font:inherit;color:inherit;display:inline-block;margin:0}.content-wrapper>.login .content form div.squaredThree{position:relative;margin:0 0 0 1px;display:block;float:left}.content-wrapper>.login .content form div.squaredThree+label{display:block;margin:0 0 .5em;padding:0 0 0 2em}.content-wrapper>.login .content form div.squaredThree:active,.content-wrapper>.login .content form div.squaredThree:focus{outline:0}.content-wrapper>.login .content form div.squaredThree label{width:1.4em;height:1.4em;margin:0;cursor:pointer;position:absolute;border:1px solid #fff;border-radius:4px;background-color:#3585c0;text-align:center;top:2px;left:-1px}.content-wrapper>.login .content form div.squaredThree label:after{font-family:FontAwesome;background:0 0;color:transparent;content:'\f00c';position:absolute;top:-2px;left:2px}.content-wrapper>.login .content form div.squaredThree label:hover:after{color:rgba(8,8,8,.4)}.content-wrapper>.login .content form div.squaredThree input[type=checkbox]:checked+label:after{color:#fff}.content-wrapper>.login .content form input[type=email],.content-wrapper>.login .content form input[type=password],.content-wrapper>.login .content form input[type=text],.content-wrapper>.login .content form textarea{-webkit-font-smoothing:auto;-webkit-appearance:none;background:#fff;font:inherit;color:inherit;box-shadow:none;border-radius:4px;border:2px solid #ddd;outline:0;padding:.6em 1em;transition:all .1s ease-in}.content-wrapper>.login .content form input[type=email]+span:after,.content-wrapper>.login .content form input[type=password]+span:after,.content-wrapper>.login .content form input[type=text]+span:after,.content-wrapper>.login .content form textarea+span:after{display:inline-block;font-family:FontAwesome;font-size:1.5em;position:absolute;z-index:10;top:.2em;right:.5em}.content-wrapper>.login .content form input[type=email].valid-input,.content-wrapper>.login .content form input[type=password].valid-input,.content-wrapper>.login .content form input[type=text].valid-input,.content-wrapper>.login .content form textarea.valid-input{border-color:#66a54e}.content-wrapper>.login .content form input[type=email].valid-input+span:after,.content-wrapper>.login .content form input[type=password].valid-input+span:after,.content-wrapper>.login .content form input[type=text].valid-input+span:after,.content-wrapper>.login .content form textarea.valid-input+span:after{color:#66a54e;content:'\f058'}.content-wrapper>.login .content form input[type=email].invalid-input,.content-wrapper>.login .content form input[type=password].invalid-input,.content-wrapper>.login .content form input[type=text].invalid-input,.content-wrapper>.login .content form textarea.invalid-input{border-color:#da4444}.content-wrapper>.login .content form input[type=email].invalid-input+span:after,.content-wrapper>.login .content form input[type=password].invalid-input+span:after,.content-wrapper>.login .content form input[type=text].invalid-input+span:after,.content-wrapper>.login .content form textarea.invalid-input+span:after{color:#da4444;content:'\f057'}.content-wrapper>.login .content form input[type=email]:active,.content-wrapper>.login .content form input[type=email]:focus,.content-wrapper>.login .content form input[type=password]:active,.content-wrapper>.login .content form input[type=password]:focus,.content-wrapper>.login .content form input[type=text]:active,.content-wrapper>.login .content form input[type=text]:focus,.content-wrapper>.login .content form textarea:active,.content-wrapper>.login .content form textarea:focus{border-color:#3585c0;box-shadow:none}.content-wrapper>.login .content form input[type=email]:active+span:after,.content-wrapper>.login .content form input[type=email]:focus+span:after,.content-wrapper>.login .content form input[type=password]:active+span:after,.content-wrapper>.login .content form input[type=password]:focus+span:after,.content-wrapper>.login .content form input[type=text]:active+span:after,.content-wrapper>.login .content form input[type=text]:focus+span:after,.content-wrapper>.login .content form textarea:active+span:after,.content-wrapper>.login .content form textarea:focus+span:after{color:#3585c0}.content-wrapper>.login .content form .form-actions button[type=submit]{width:auto;height:auto;font:inherit;background:#e9b459;display:inline-block;touch-action:manipulation;cursor:pointer;border:1px solid #e9b459;white-space:nowrap;font-size:14px;line-height:1.42857143;border-radius:4px;user-select:none;color:#fff;box-shadow:none;margin:0;padding:.5em 1.2em;outline:0;font-weight:600}.content-wrapper>.login .content form .form-actions button[type=submit].active.focus,.content-wrapper>.login .content form .form-actions button[type=submit].active:focus,.content-wrapper>.login .content form .form-actions button[type=submit].focus,.content-wrapper>.login .content form .form-actions button[type=submit]:active.focus,.content-wrapper>.login .content form .form-actions button[type=submit]:active:focus,.content-wrapper>.login .content form .form-actions button[type=submit]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.content-wrapper>.login .content form .form-actions button[type=submit].focus,.content-wrapper>.login .content form .form-actions button[type=submit]:focus,.content-wrapper>.login .content form .form-actions button[type=submit]:hover{text-decoration:none}.content-wrapper>.login .content form .form-actions button[type=submit].active,.content-wrapper>.login .content form .form-actions button[type=submit]:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.content-wrapper>.login .content form .form-actions button[type=submit].disabled,.content-wrapper>.login .content form .form-actions button[type=submit][disabled],fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit]{cursor:not-allowed;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.content-wrapper>.login .content form .form-actions button[type=submit].focus,.content-wrapper>.login .content form .form-actions button[type=submit]:focus{color:#fff;background-color:#e3a02c;border-color:#bfbfbf}.content-wrapper>.login .content form .form-actions button[type=submit].active,.content-wrapper>.login .content form .form-actions button[type=submit]:active,.content-wrapper>.login .content form .form-actions button[type=submit]:hover,.open>.dropdown-toggle.content-wrapper>.login .content form .form-actions button[type=submit]{color:#fff;background-color:#e3a02c;border-color:#e0e0e0}.content-wrapper>.login .content form .form-actions button[type=submit].active.focus,.content-wrapper>.login .content form .form-actions button[type=submit].active:focus,.content-wrapper>.login .content form .form-actions button[type=submit].active:hover,.content-wrapper>.login .content form .form-actions button[type=submit]:active.focus,.content-wrapper>.login .content form .form-actions button[type=submit]:active:focus,.content-wrapper>.login .content form .form-actions button[type=submit]:active:hover,.open>.dropdown-toggle.content-wrapper>.login .content form .form-actions button[type=submit].focus,.open>.dropdown-toggle.content-wrapper>.login .content form .form-actions button[type=submit]:focus,.open>.dropdown-toggle.content-wrapper>.login .content form .form-actions button[type=submit]:hover{color:#fff;background-color:#d08d1c;border-color:#bfbfbf}.content-wrapper>.login .content form .form-actions button[type=submit].active,.content-wrapper>.login .content form .form-actions button[type=submit]:active,.open>.dropdown-toggle.content-wrapper>.login .content form .form-actions button[type=submit]{background-image:none}.content-wrapper>.login .content form .form-actions button[type=submit].disabled,.content-wrapper>.login .content form .form-actions button[type=submit].disabled.active,.content-wrapper>.login .content form .form-actions button[type=submit].disabled.focus,.content-wrapper>.login .content form .form-actions button[type=submit].disabled:active,.content-wrapper>.login .content form .form-actions button[type=submit].disabled:focus,.content-wrapper>.login .content form .form-actions button[type=submit].disabled:hover,.content-wrapper>.login .content form .form-actions button[type=submit][disabled],.content-wrapper>.login .content form .form-actions button[type=submit][disabled].active,.content-wrapper>.login .content form .form-actions button[type=submit][disabled].focus,.content-wrapper>.login .content form .form-actions button[type=submit][disabled]:active,.content-wrapper>.login .content form .form-actions button[type=submit][disabled]:focus,.content-wrapper>.login .content form .form-actions button[type=submit][disabled]:hover,fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit],fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit].active,fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit].focus,fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit]:active,fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit]:focus,fieldset[disabled] .content-wrapper>.login .content form .form-actions button[type=submit]:hover{background-color:#e9b459;border-color:#fff}.content-wrapper>.login .content form .form-actions button[type=submit] .badge{color:#e9b459;background-color:#fff}.content-wrapper>.login .content form .form-actions button[type=submit]:focus{background-color:#e9b459}.content-wrapper>.login .content form .form-actions button[type=submit]:active,.content-wrapper>.login .content form .form-actions button[type=submit]:focus{background:#fff;color:#e9b459;box-shadow:none;border-color:#e9b459;outline:0}.content-wrapper>.login .content form .form-actions button[type=submit]:hover{background:#fff;color:#e9b459;border-color:#e9b459;box-shadow:none}@media (min-width:992px){.content-wrapper>.login .content form .form-actions button[type=submit]{width:auto;height:auto;padding-left:2.5em;padding-right:2.5em}}.content-wrapper>.login aside{width:300px;height:auto;padding:0;margin:0;float:right}@media (max-width:767px){.content-wrapper>.login .content form .form-actions button[type=submit]{white-space:normal}.content-wrapper>.login aside{display:none!important}}@media (min-width:768px) and (max-width:991px){.content-wrapper>.login aside{display:none!important}}.content-wrapper>.login aside p{font:inherit;color:inherit;font-size:.9em}.content-wrapper>.login aside a{font:inherit;color:#3585c0}.content-wrapper>.passwordreset{width:auto;height:auto;margin-right:auto;margin-left:auto;min-width:0;max-width:none;margin-top:30px;background:0 0;padding:0 15px}@media (min-width:768px){.content-wrapper>.passwordreset{width:750px}}@media (min-width:992px){.content-wrapper>.passwordreset{width:970px}}@media (min-width:1200px){.content-wrapper>.passwordreset{width:1170px}}.content-wrapper>.passwordreset>.navbar-collapse,.content-wrapper>.passwordreset>.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.content-wrapper>.passwordreset>.navbar-collapse,.content-wrapper>.passwordreset>.navbar-header{margin-right:0;margin-left:0}}.content-wrapper>.passwordreset .introduction{background:0 0;margin:0}.content-wrapper>.passwordreset .introduction header h1{font:inherit;font-size:22px;color:#3585c0;text-transform:none}.content-wrapper>.passwordreset>div{border:0;background:0 0}.content-wrapper>.passwordreset .content{width:100%;height:auto;margin:0;padding:0}@media (min-width:992px){.content-wrapper>.passwordreset .content{margin-right:-300px;padding-right:340px;float:left}}.content-wrapper>.passwordreset .content p{font:inherit;color:inherit}.content-wrapper>.passwordreset .content a{font:inherit;color:#3585c0}.content-wrapper>.passwordreset .content form .status{outline:0;box-shadow:none;border:0;background:0 0;margin:0 0 20px;padding:15px 20px;color:inherit;border-radius:4px}.content-wrapper>.passwordreset .content form .status h2,.content-wrapper>.passwordreset .content form .status h3,.content-wrapper>.passwordreset .content form .status h4,.content-wrapper>.passwordreset .content form .status h5{font:inherit;text-transform:none;margin:0;color:inherit;letter-spacing:normal;font-weight:600}.content-wrapper>.passwordreset .content form .status p,.content-wrapper>.passwordreset .content form .status ul{font:inherit;color:inherit}.content-wrapper>.passwordreset .content form .status p:last-child,.content-wrapper>.passwordreset .content form .status ul:last-child{margin-bottom:0}.content-wrapper>.passwordreset .content form .status a{color:inherit;text-decoration:underline}.content-wrapper>.passwordreset .content form .status.alert-warning{background-color:#ecbe70;color:#fff}.content-wrapper>.passwordreset .content form .status.alert-danger,.content-wrapper>.passwordreset .content form .status.alert-error{background-color:#de5959;color:#fff}.content-wrapper>.passwordreset .content form .status.alert-info{background-color:#4392cb;color:#fff}.content-wrapper>.passwordreset .content form .status.alert-success{background-color:#73b15b;color:#fff}.content-wrapper>.passwordreset .content form .status.submission-error{outline:0;box-shadow:none;border:0;background:#de5959;margin:0 0 20px;padding:15px 20px;border-radius:4px;color:#fff}.content-wrapper>.passwordreset .content form .status.submission-error h2,.content-wrapper>.passwordreset .content form .status.submission-error h3,.content-wrapper>.passwordreset .content form .status.submission-error h4,.content-wrapper>.passwordreset .content form .status.submission-error h5{font:inherit;text-transform:none;margin:0;color:inherit;letter-spacing:normal;font-weight:600}.content-wrapper>.passwordreset .content form .status.submission-error p,.content-wrapper>.passwordreset .content form .status.submission-error ul{font:inherit;color:inherit}.content-wrapper>.passwordreset .content form .status.submission-error p:last-child,.content-wrapper>.passwordreset .content form .status.submission-error ul:last-child{margin-bottom:0}.content-wrapper>.passwordreset .content form .status.submission-error a{color:inherit;text-decoration:underline}.content-wrapper>.passwordreset .content form .status.submission-error.alert-warning{background-color:#ecbe70;color:#fff}.content-wrapper>.passwordreset .content form .status.submission-error.alert-danger,.content-wrapper>.passwordreset .content form .status.submission-error.alert-error{background-color:#de5959;color:#fff}.content-wrapper>.passwordreset .content form .status.submission-error.alert-info{background-color:#4392cb;color:#fff}.content-wrapper>.passwordreset .content form .status.submission-error.alert-success{background-color:#73b15b;color:#fff}.content-wrapper>.passwordreset .content form .list-input{color:inherit;font:inherit}.content-wrapper>.passwordreset .content form .list-input>li{position:relative}.content-wrapper>.passwordreset .content form label{font:inherit;color:inherit;text-shadow:none}.content-wrapper>.passwordreset .content form input{font:inherit;color:inherit;display:inline-block;margin:0}.content-wrapper>.passwordreset .content form input[type=password]{-webkit-font-smoothing:auto;-webkit-appearance:none;background:#fff;font:inherit;color:inherit;box-shadow:none;border-radius:4px;border:2px solid #ddd;outline:0;padding:.6em 1em;transition:all .1s ease-in}.content-wrapper>.passwordreset .content form input[type=password]+span:after{display:inline-block;font-family:FontAwesome;font-size:1.5em;position:absolute;z-index:10;top:.2em;right:.5em}.content-wrapper>.passwordreset .content form input[type=password].valid-input{border-color:#66a54e}.content-wrapper>.passwordreset .content form input[type=password].valid-input+span:after{color:#66a54e;content:'\f058'}.content-wrapper>.passwordreset .content form input[type=password].invalid-input{border-color:#da4444}.content-wrapper>.passwordreset .content form input[type=password].invalid-input+span:after{color:#da4444;content:'\f057'}.content-wrapper>.passwordreset .content form input[type=password]:active,.content-wrapper>.passwordreset .content form input[type=password]:focus{border-color:#3585c0;box-shadow:none}.content-wrapper>.passwordreset .content form input[type=password]:active+span:after,.content-wrapper>.passwordreset .content form input[type=password]:focus+span:after{color:#3585c0}.content-wrapper>.passwordreset .content form .form-actions button[type=submit]{width:auto;height:auto;font:inherit;background:#e9b459;display:inline-block;text-align:center;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;border:1px solid #e9b459;white-space:nowrap;font-size:14px;line-height:1.42857143;border-radius:4px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#fff;text-shadow:none;text-overflow:ellipsis;transition:all .1s ease-in;box-shadow:none;margin:0;padding:.5em 1.2em;outline:0;overflow:hidden;font-weight:600}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active.focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active.focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus{outline:dotted thin;outline:-webkit-focus-ring-color auto 5px;outline-offset:-2px}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:hover{text-decoration:none}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled,.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled],fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit]{cursor:not-allowed;opacity:.65;filter:alpha(opacity=65);box-shadow:none}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus{color:#fff;background-color:#e3a02c;border-color:#bfbfbf}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:hover,.open>.dropdown-toggle.content-wrapper>.passwordreset .content form .form-actions button[type=submit]{color:#fff;background-color:#e3a02c;border-color:#e0e0e0}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active.focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active:hover,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active.focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active:hover,.open>.dropdown-toggle.content-wrapper>.passwordreset .content form .form-actions button[type=submit].focus,.open>.dropdown-toggle.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus,.open>.dropdown-toggle.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:hover{color:#fff;background-color:#d08d1c;border-color:#bfbfbf}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active,.open>.dropdown-toggle.content-wrapper>.passwordreset .content form .form-actions button[type=submit]{background-image:none}.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled.active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled.focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled:active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit].disabled:hover,.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled],.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled].active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled].focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled]:active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled]:focus,.content-wrapper>.passwordreset .content form .form-actions button[type=submit][disabled]:hover,fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit],fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit].active,fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit].focus,fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active,fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus,fieldset[disabled] .content-wrapper>.passwordreset .content form .form-actions button[type=submit]:hover{background-color:#e9b459;border-color:#fff}.content-wrapper>.passwordreset .content form .form-actions button[type=submit] .badge{color:#e9b459;background-color:#fff}.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus{background-color:#e9b459}.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:active,.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:focus{background:#fff;color:#e9b459;box-shadow:none;border-color:#e9b459;outline:0}.content-wrapper>.passwordreset .content form .form-actions button[type=submit]:hover{background:#fff;color:#e9b459;border-color:#e9b459;box-shadow:none}@media (min-width:992px){.content-wrapper>.passwordreset .content form .form-actions button[type=submit]{width:auto;height:auto;padding-left:2.5em;padding-right:2.5em}}.content-wrapper>.passwordreset aside{width:300px;height:auto;padding:0;margin:0;float:right}@media (max-width:767px){.content-wrapper>.passwordreset .content form .form-actions button[type=submit]{white-space:normal}.content-wrapper>.passwordreset aside{display:none!important}}@media (min-width:768px) and (max-width:991px){.content-wrapper>.passwordreset aside{display:none!important}}.content-wrapper>.passwordreset aside p{font:inherit;color:inherit;font-size:.9em}.content-wrapper>.passwordreset aside a{font:inherit;color:#3585c0}.content-wrapper>.activation{width:auto;height:auto;margin-right:auto;margin-left:auto;min-width:0;max-width:none;margin-top:30px;padding:0 15px}@media (min-width:768px){.content-wrapper>.activation{width:750px}}@media (min-width:992px){.content-wrapper>.activation{width:970px}}@media (min-width:1200px){.content-wrapper>.activation{width:1170px}}.content-wrapper>.activation>.navbar-collapse,.content-wrapper>.activation>.navbar-header{margin-right:-15px;margin-left:-15px}@media (min-width:768px){.content-wrapper>.activation>.navbar-collapse,.content-wrapper>.activation>.navbar-header{margin-right:0;margin-left:0}}.content-wrapper>.activation .message{width:auto;height:auto;margin:0;padding:0;background:0 0;box-shadow:none;border-radius:0;border:0}.content-wrapper>.activation .message h1{margin-top:0;text-align:left;padding:0 0 30px;border-bottom:1px solid #ddd}.content-wrapper>.activation .message h1.valid{background:0 0;border:0;color:inherit}.content-wrapper>.activation .message h1:before{font-family:FontAwesome;content:'\f084';margin-right:15px}.content-wrapper>.activation .message hr{display:none}
+@import url('bundle-blessed3.css?z=1439837806909');
+@import url('bundle-blessed2.css?z=1439837806909');
+@import url('bundle-blessed1.css?z=1439837806909');
+
+.content-wrapper .login-register .form-field input[type=text],
+.content-wrapper .login-register .form-field input[type=email],
+.content-wrapper .login-register .form-field input[type=password],
+.content-wrapper .login-register .form-field textarea,
+.content-wrapper .login-register .form-field select {
+  background: none;
+  background-color: #ffffff;
+  font: inherit;
+  color: inherit;
+  height: 34px;
+  box-shadow: none;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  outline: none;
+  padding: 0.6em 1em;
+  transition: all 0.1s ease-in;
+}
+.content-wrapper .login-register .form-field input[type=text] + span:after,
+.content-wrapper .login-register .form-field input[type=email] + span:after,
+.content-wrapper .login-register .form-field input[type=password] + span:after,
+.content-wrapper .login-register .form-field textarea + span:after,
+.content-wrapper .login-register .form-field select + span:after {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-size: 1.5em;
+  position: absolute;
+  z-index: 10;
+  top: 0.2em;
+  right: 0.5em;
+}
+.content-wrapper .login-register .form-field input[type=text].valid-input,
+.content-wrapper .login-register .form-field input[type=email].valid-input,
+.content-wrapper .login-register .form-field input[type=password].valid-input,
+.content-wrapper .login-register .form-field textarea.valid-input,
+.content-wrapper .login-register .form-field select.valid-input {
+  border-color: #66a54e;
+}
+.content-wrapper .login-register .form-field input[type=text].valid-input + span:after,
+.content-wrapper .login-register .form-field input[type=email].valid-input + span:after,
+.content-wrapper .login-register .form-field input[type=password].valid-input + span:after,
+.content-wrapper .login-register .form-field textarea.valid-input + span:after,
+.content-wrapper .login-register .form-field select.valid-input + span:after {
+  color: #66a54e;
+  content: '\f058';
+}
+.content-wrapper .login-register .form-field input[type=text].invalid-input,
+.content-wrapper .login-register .form-field input[type=email].invalid-input,
+.content-wrapper .login-register .form-field input[type=password].invalid-input,
+.content-wrapper .login-register .form-field textarea.invalid-input,
+.content-wrapper .login-register .form-field select.invalid-input {
+  border-color: #da4444;
+}
+.content-wrapper .login-register .form-field input[type=text].invalid-input + span:after,
+.content-wrapper .login-register .form-field input[type=email].invalid-input + span:after,
+.content-wrapper .login-register .form-field input[type=password].invalid-input + span:after,
+.content-wrapper .login-register .form-field textarea.invalid-input + span:after,
+.content-wrapper .login-register .form-field select.invalid-input + span:after {
+  color: #da4444;
+  content: '\f057';
+}
+.content-wrapper .login-register .form-field input[type=text]:focus,
+.content-wrapper .login-register .form-field input[type=email]:focus,
+.content-wrapper .login-register .form-field input[type=password]:focus,
+.content-wrapper .login-register .form-field textarea:focus,
+.content-wrapper .login-register .form-field select:focus,
+.content-wrapper .login-register .form-field input[type=text]:active,
+.content-wrapper .login-register .form-field input[type=email]:active,
+.content-wrapper .login-register .form-field input[type=password]:active,
+.content-wrapper .login-register .form-field textarea:active,
+.content-wrapper .login-register .form-field select:active {
+  border-color: #3585c0;
+  box-shadow: none;
+}
+.content-wrapper .login-register .form-field input[type=text]:focus + span:after,
+.content-wrapper .login-register .form-field input[type=email]:focus + span:after,
+.content-wrapper .login-register .form-field input[type=password]:focus + span:after,
+.content-wrapper .login-register .form-field textarea:focus + span:after,
+.content-wrapper .login-register .form-field select:focus + span:after,
+.content-wrapper .login-register .form-field input[type=text]:active + span:after,
+.content-wrapper .login-register .form-field input[type=email]:active + span:after,
+.content-wrapper .login-register .form-field input[type=password]:active + span:after,
+.content-wrapper .login-register .form-field textarea:active + span:after,
+.content-wrapper .login-register .form-field select:active + span:after {
+  color: #3585c0;
+}
+.content-wrapper .login-register .form-field textarea {
+  height: auto;
+}
+.content-wrapper .login-register .nav-btn {
+  width: auto;
+  height: auto;
+  font: inherit;
+  background: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #3585c0;
+  background-color: #ffffff;
+  border-color: #3585c0;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  transition: all 0.1s ease-in;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.5em 1.2em;
+  outline: none;
+  overflow: hidden;
+  border-color: #a7a7a7 !important;
+  color: #555555 !important;
+  /*
+    &:focus {
+        background-color: @bg-color;
+        color: @fg-color;
+        border-color: @fg-color;
+    }
+
+
+
+    & when (@fg-color = @black) {
+        border-color: @bg-color;
+    }
+
+    &:focus, &:active {
+        .ionisx-btn-hover(@fg-color, @bg-color);
+
+        outline: none;
+    }
+
+    &:hover {
+        .ionisx-btn-hover(@fg-color, @bg-color);
+    }
+    */
+  width: 100%;
+}
+.content-wrapper .login-register .nav-btn:focus,
+.content-wrapper .login-register .nav-btn:active:focus,
+.content-wrapper .login-register .nav-btn.active:focus,
+.content-wrapper .login-register .nav-btn.focus,
+.content-wrapper .login-register .nav-btn:active.focus,
+.content-wrapper .login-register .nav-btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.content-wrapper .login-register .nav-btn:hover,
+.content-wrapper .login-register .nav-btn:focus,
+.content-wrapper .login-register .nav-btn.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.content-wrapper .login-register .nav-btn:active,
+.content-wrapper .login-register .nav-btn.active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.content-wrapper .login-register .nav-btn.disabled,
+.content-wrapper .login-register .nav-btn[disabled],
+fieldset[disabled] .content-wrapper .login-register .nav-btn {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+a.content-wrapper .login-register .nav-btn.disabled,
+fieldset[disabled] a.content-wrapper .login-register .nav-btn {
+  pointer-events: none;
+}
+.content-wrapper .login-register .nav-btn:focus,
+.content-wrapper .login-register .nav-btn.focus {
+  color: #3585c0;
+  background-color: #e6e6e6;
+  border-color: #19405c;
+}
+.content-wrapper .login-register .nav-btn:hover {
+  color: #3585c0;
+  background-color: #e6e6e6;
+  border-color: #286490;
+}
+.content-wrapper .login-register .nav-btn:active,
+.content-wrapper .login-register .nav-btn.active,
+.open > .dropdown-toggle.content-wrapper .login-register .nav-btn {
+  color: #3585c0;
+  background-color: #e6e6e6;
+  border-color: #286490;
+}
+.content-wrapper .login-register .nav-btn:active:hover,
+.content-wrapper .login-register .nav-btn.active:hover,
+.open > .dropdown-toggle.content-wrapper .login-register .nav-btn:hover,
+.content-wrapper .login-register .nav-btn:active:focus,
+.content-wrapper .login-register .nav-btn.active:focus,
+.open > .dropdown-toggle.content-wrapper .login-register .nav-btn:focus,
+.content-wrapper .login-register .nav-btn:active.focus,
+.content-wrapper .login-register .nav-btn.active.focus,
+.open > .dropdown-toggle.content-wrapper .login-register .nav-btn.focus {
+  color: #3585c0;
+  background-color: #d4d4d4;
+  border-color: #19405c;
+}
+.content-wrapper .login-register .nav-btn:active,
+.content-wrapper .login-register .nav-btn.active,
+.open > .dropdown-toggle.content-wrapper .login-register .nav-btn {
+  background-image: none;
+}
+.content-wrapper .login-register .nav-btn.disabled,
+.content-wrapper .login-register .nav-btn[disabled],
+fieldset[disabled] .content-wrapper .login-register .nav-btn,
+.content-wrapper .login-register .nav-btn.disabled:hover,
+.content-wrapper .login-register .nav-btn[disabled]:hover,
+fieldset[disabled] .content-wrapper .login-register .nav-btn:hover,
+.content-wrapper .login-register .nav-btn.disabled:focus,
+.content-wrapper .login-register .nav-btn[disabled]:focus,
+fieldset[disabled] .content-wrapper .login-register .nav-btn:focus,
+.content-wrapper .login-register .nav-btn.disabled.focus,
+.content-wrapper .login-register .nav-btn[disabled].focus,
+fieldset[disabled] .content-wrapper .login-register .nav-btn.focus,
+.content-wrapper .login-register .nav-btn.disabled:active,
+.content-wrapper .login-register .nav-btn[disabled]:active,
+fieldset[disabled] .content-wrapper .login-register .nav-btn:active,
+.content-wrapper .login-register .nav-btn.disabled.active,
+.content-wrapper .login-register .nav-btn[disabled].active,
+fieldset[disabled] .content-wrapper .login-register .nav-btn.active {
+  background-color: #ffffff;
+  border-color: #3585c0;
+}
+.content-wrapper .login-register .nav-btn .badge {
+  color: #ffffff;
+  background-color: #3585c0;
+}
+@media (max-width: 767px) {
+  .content-wrapper .login-register .nav-btn {
+    white-space: normal;
+  }
+}
+@media (min-width: 992px) {
+  .content-wrapper .login-register .nav-btn {
+    width: auto;
+    height: auto;
+    width: 100%;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+.content-wrapper .login-register .action-primary {
+  width: auto;
+  height: auto;
+  font: inherit;
+  background: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #3585c0;
+  border-color: #ffffff;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  transition: all 0.1s ease-in;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.5em 1.2em;
+  outline: none;
+  overflow: hidden;
+  /*
+    &:focus {
+        background-color: @bg-color;
+        color: @fg-color;
+        border-color: @fg-color;
+    }
+
+
+
+    & when (@fg-color = @black) {
+        border-color: @bg-color;
+    }
+
+    &:focus, &:active {
+        .ionisx-btn-hover(@fg-color, @bg-color);
+
+        outline: none;
+    }
+
+    &:hover {
+        .ionisx-btn-hover(@fg-color, @bg-color);
+    }
+    */
+  width: 100%;
+  font-weight: 600;
+}
+.content-wrapper .login-register .action-primary:focus,
+.content-wrapper .login-register .action-primary:active:focus,
+.content-wrapper .login-register .action-primary.active:focus,
+.content-wrapper .login-register .action-primary.focus,
+.content-wrapper .login-register .action-primary:active.focus,
+.content-wrapper .login-register .action-primary.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.content-wrapper .login-register .action-primary:hover,
+.content-wrapper .login-register .action-primary:focus,
+.content-wrapper .login-register .action-primary.focus {
+  color: #333333;
+  text-decoration: none;
+}
+.content-wrapper .login-register .action-primary:active,
+.content-wrapper .login-register .action-primary.active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.content-wrapper .login-register .action-primary.disabled,
+.content-wrapper .login-register .action-primary[disabled],
+fieldset[disabled] .content-wrapper .login-register .action-primary {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+a.content-wrapper .login-register .action-primary.disabled,
+fieldset[disabled] a.content-wrapper .login-register .action-primary {
+  pointer-events: none;
+}
+.content-wrapper .login-register .action-primary:focus,
+.content-wrapper .login-register .action-primary.focus {
+  color: #ffffff;
+  background-color: #2a6998;
+  border-color: #bfbfbf;
+}
+.content-wrapper .login-register .action-primary:hover {
+  color: #ffffff;
+  background-color: #2a6998;
+  border-color: #e0e0e0;
+}
+.content-wrapper .login-register .action-primary:active,
+.content-wrapper .login-register .action-primary.active,
+.open > .dropdown-toggle.content-wrapper .login-register .action-primary {
+  color: #ffffff;
+  background-color: #2a6998;
+  border-color: #e0e0e0;
+}
+.content-wrapper .login-register .action-primary:active:hover,
+.content-wrapper .login-register .action-primary.active:hover,
+.open > .dropdown-toggle.content-wrapper .login-register .action-primary:hover,
+.content-wrapper .login-register .action-primary:active:focus,
+.content-wrapper .login-register .action-primary.active:focus,
+.open > .dropdown-toggle.content-wrapper .login-register .action-primary:focus,
+.content-wrapper .login-register .action-primary:active.focus,
+.content-wrapper .login-register .action-primary.active.focus,
+.open > .dropdown-toggle.content-wrapper .login-register .action-primary.focus {
+  color: #ffffff;
+  background-color: #22567c;
+  border-color: #bfbfbf;
+}
+.content-wrapper .login-register .action-primary:active,
+.content-wrapper .login-register .action-primary.active,
+.open > .dropdown-toggle.content-wrapper .login-register .action-primary {
+  background-image: none;
+}
+.content-wrapper .login-register .action-primary.disabled,
+.content-wrapper .login-register .action-primary[disabled],
+fieldset[disabled] .content-wrapper .login-register .action-primary,
+.content-wrapper .login-register .action-primary.disabled:hover,
+.content-wrapper .login-register .action-primary[disabled]:hover,
+fieldset[disabled] .content-wrapper .login-register .action-primary:hover,
+.content-wrapper .login-register .action-primary.disabled:focus,
+.content-wrapper .login-register .action-primary[disabled]:focus,
+fieldset[disabled] .content-wrapper .login-register .action-primary:focus,
+.content-wrapper .login-register .action-primary.disabled.focus,
+.content-wrapper .login-register .action-primary[disabled].focus,
+fieldset[disabled] .content-wrapper .login-register .action-primary.focus,
+.content-wrapper .login-register .action-primary.disabled:active,
+.content-wrapper .login-register .action-primary[disabled]:active,
+fieldset[disabled] .content-wrapper .login-register .action-primary:active,
+.content-wrapper .login-register .action-primary.disabled.active,
+.content-wrapper .login-register .action-primary[disabled].active,
+fieldset[disabled] .content-wrapper .login-register .action-primary.active {
+  background-color: #3585c0;
+  border-color: #ffffff;
+}
+.content-wrapper .login-register .action-primary .badge {
+  color: #3585c0;
+  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  .content-wrapper .login-register .action-primary {
+    white-space: normal;
+  }
+}
+@media (min-width: 992px) {
+  .content-wrapper .login-register .action-primary {
+    width: auto;
+    height: auto;
+    width: 100%;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+.content-wrapper .login-register .form-type,
+.content-wrapper .login-register .toggle-form {
+  margin-bottom: 40px;
+}
+.content-wrapper > .passwordreset {
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 0;
+  max-width: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 30px;
+  background: none;
+}
+@media (min-width: 768px) {
+  .content-wrapper > .passwordreset {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .content-wrapper > .passwordreset {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-wrapper > .passwordreset {
+    width: 1170px;
+  }
+}
+.content-wrapper > .passwordreset > .navbar-header,
+.content-wrapper > .passwordreset > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .content-wrapper > .passwordreset > .navbar-header,
+  .content-wrapper > .passwordreset > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.content-wrapper > .passwordreset .introduction {
+  background: none;
+  margin: 0;
+}
+.content-wrapper > .passwordreset .introduction header h1 {
+  font: inherit;
+  font-size: 22px;
+  color: #3585c0;
+  text-transform: none;
+}
+.content-wrapper > .passwordreset > div {
+  border: 0 none;
+  background: none;
+}
+.content-wrapper > .passwordreset .content {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 992px) {
+  .content-wrapper > .passwordreset .content {
+    margin-right: -300px;
+    padding-right: 340px;
+    float: left;
+  }
+}
+.content-wrapper > .passwordreset .content p {
+  font: inherit;
+  color: inherit;
+}
+.content-wrapper > .passwordreset .content a {
+  font: inherit;
+  color: #3585c0;
+}
+.content-wrapper > .passwordreset .content form .status {
+  outline: none;
+  box-shadow: none;
+  border: 0 none;
+  background: none;
+  margin: 0 0 20px 0;
+  padding: 15px 20px;
+  color: inherit;
+  border-radius: 4px;
+}
+.content-wrapper > .passwordreset .content form .status h2,
+.content-wrapper > .passwordreset .content form .status h3,
+.content-wrapper > .passwordreset .content form .status h4,
+.content-wrapper > .passwordreset .content form .status h5 {
+  font: inherit;
+  text-transform: none;
+  margin: 0;
+  color: inherit;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+.content-wrapper > .passwordreset .content form .status p,
+.content-wrapper > .passwordreset .content form .status ul {
+  font: inherit;
+  color: inherit;
+}
+.content-wrapper > .passwordreset .content form .status p:last-child,
+.content-wrapper > .passwordreset .content form .status ul:last-child {
+  margin-bottom: 0;
+}
+.content-wrapper > .passwordreset .content form .status a {
+  color: inherit;
+  text-decoration: underline;
+}
+.content-wrapper > .passwordreset .content form .status.alert-warning {
+  background-color: #ecbe70;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.alert-danger,
+.content-wrapper > .passwordreset .content form .status.alert-error {
+  background-color: #de5959;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.alert-info {
+  background-color: #4392cb;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.alert-success {
+  background-color: #73b15b;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error {
+  outline: none;
+  box-shadow: none;
+  border: 0 none;
+  background: none;
+  margin: 0 0 20px 0;
+  padding: 15px 20px;
+  color: inherit;
+  border-radius: 4px;
+  background-color: #de5959;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error h2,
+.content-wrapper > .passwordreset .content form .status.submission-error h3,
+.content-wrapper > .passwordreset .content form .status.submission-error h4,
+.content-wrapper > .passwordreset .content form .status.submission-error h5 {
+  font: inherit;
+  text-transform: none;
+  margin: 0;
+  color: inherit;
+  letter-spacing: normal;
+  font-weight: 600;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error p,
+.content-wrapper > .passwordreset .content form .status.submission-error ul {
+  font: inherit;
+  color: inherit;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error p:last-child,
+.content-wrapper > .passwordreset .content form .status.submission-error ul:last-child {
+  margin-bottom: 0;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error a {
+  color: inherit;
+  text-decoration: underline;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error.alert-warning {
+  background-color: #ecbe70;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error.alert-danger,
+.content-wrapper > .passwordreset .content form .status.submission-error.alert-error {
+  background-color: #de5959;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error.alert-info {
+  background-color: #4392cb;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .status.submission-error.alert-success {
+  background-color: #73b15b;
+  color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .list-input {
+  color: inherit;
+  font: inherit;
+}
+.content-wrapper > .passwordreset .content form .list-input > li {
+  position: relative;
+}
+.content-wrapper > .passwordreset .content form label {
+  font: inherit;
+  color: inherit;
+  text-shadow: none;
+}
+.content-wrapper > .passwordreset .content form input {
+  font: inherit;
+  color: inherit;
+  display: inline-block;
+  margin: 0;
+}
+.content-wrapper > .passwordreset .content form input[type=password] {
+  background: none;
+  background-color: #ffffff;
+  font: inherit;
+  color: inherit;
+  height: 34px;
+  box-shadow: none;
+  border-radius: 4px;
+  border: 1px solid #cccccc;
+  outline: none;
+  padding: 0.6em 1em;
+  transition: all 0.1s ease-in;
+}
+.content-wrapper > .passwordreset .content form input[type=password] + span:after {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-size: 1.5em;
+  position: absolute;
+  z-index: 10;
+  top: 0.2em;
+  right: 0.5em;
+}
+.content-wrapper > .passwordreset .content form input[type=password].valid-input {
+  border-color: #66a54e;
+}
+.content-wrapper > .passwordreset .content form input[type=password].valid-input + span:after {
+  color: #66a54e;
+  content: '\f058';
+}
+.content-wrapper > .passwordreset .content form input[type=password].invalid-input {
+  border-color: #da4444;
+}
+.content-wrapper > .passwordreset .content form input[type=password].invalid-input + span:after {
+  color: #da4444;
+  content: '\f057';
+}
+.content-wrapper > .passwordreset .content form input[type=password]:focus,
+.content-wrapper > .passwordreset .content form input[type=password]:active {
+  border-color: #3585c0;
+  box-shadow: none;
+}
+.content-wrapper > .passwordreset .content form input[type=password]:focus + span:after,
+.content-wrapper > .passwordreset .content form input[type=password]:active + span:after {
+  color: #3585c0;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+  width: auto;
+  height: auto;
+  font: inherit;
+  background: none;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+  background-color: #3585c0;
+  border-color: #ffffff;
+  text-shadow: none;
+  text-overflow: ellipsis;
+  transition: all 0.1s ease-in;
+  box-shadow: none;
+  margin: 0;
+  padding: 0.5em 1.2em;
+  outline: none;
+  overflow: hidden;
+  /*
+    &:focus {
+        background-color: @bg-color;
+        color: @fg-color;
+        border-color: @fg-color;
+    }
+
+
+
+    & when (@fg-color = @black) {
+        border-color: @bg-color;
+    }
+
+    &:focus, &:active {
+        .ionisx-btn-hover(@fg-color, @bg-color);
+
+        outline: none;
+    }
+
+    &:hover {
+        .ionisx-btn-hover(@fg-color, @bg-color);
+    }
+    */
+  font-weight: 600;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active.focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:hover,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus {
+  color: #333333;
+  text-decoration: none;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active {
+  outline: 0;
+  background-image: none;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled],
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  box-shadow: none;
+}
+a.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled,
+fieldset[disabled] a.content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+  pointer-events: none;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus {
+  color: #ffffff;
+  background-color: #2a6998;
+  border-color: #bfbfbf;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:hover {
+  color: #ffffff;
+  background-color: #2a6998;
+  border-color: #e0e0e0;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active,
+.open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+  color: #ffffff;
+  background-color: #2a6998;
+  border-color: #e0e0e0;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active:hover,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active:hover,
+.open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:hover,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active:focus,
+.open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active.focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active.focus,
+.open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus {
+  color: #ffffff;
+  background-color: #22567c;
+  border-color: #bfbfbf;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].active,
+.open > .dropdown-toggle.content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+  background-image: none;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled],
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit],
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled:hover,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled]:hover,
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:hover,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled]:focus,
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled.focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled].focus,
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit].focus,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled:active,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled]:active,
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit]:active,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit].disabled.active,
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit][disabled].active,
+fieldset[disabled] .content-wrapper > .passwordreset .content form .form-actions button[type=submit].active {
+  background-color: #3585c0;
+  border-color: #ffffff;
+}
+.content-wrapper > .passwordreset .content form .form-actions button[type=submit] .badge {
+  color: #3585c0;
+  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  .content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+    white-space: normal;
+  }
+}
+@media (min-width: 992px) {
+  .content-wrapper > .passwordreset .content form .form-actions button[type=submit] {
+    width: auto;
+    height: auto;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+}
+.content-wrapper > .passwordreset aside {
+  width: 300px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+@media (max-width: 767px) {
+  .content-wrapper > .passwordreset aside {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .content-wrapper > .passwordreset aside {
+    display: none !important;
+  }
+}
+.content-wrapper > .passwordreset aside p {
+  font: inherit;
+  color: inherit;
+  font-size: 0.9em;
+}
+.content-wrapper > .passwordreset aside a {
+  font: inherit;
+  color: #3585c0;
+}
+.content-wrapper > .activation {
+  width: auto;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 0;
+  max-width: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .content-wrapper > .activation {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .content-wrapper > .activation {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .content-wrapper > .activation {
+    width: 1170px;
+  }
+}
+.content-wrapper > .activation > .navbar-header,
+.content-wrapper > .activation > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .content-wrapper > .activation > .navbar-header,
+  .content-wrapper > .activation > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.content-wrapper > .activation .message {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  border: 0 none;
+}
+.content-wrapper > .activation .message h1 {
+  margin-top: 0;
+  text-align: left;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #cccccc;
+}
+.content-wrapper > .activation .message h1.valid {
+  background: none;
+  border: 0 none;
+  color: inherit;
+}
+.content-wrapper > .activation .message h1:before {
+  font-family: 'FontAwesome';
+  content: '\f084';
+  margin-right: 15px;
+}
+.content-wrapper > .activation .message hr {
+  display: none;
+}

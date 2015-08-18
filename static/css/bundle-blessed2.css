@@ -468,7 +468,7 @@ body header.global.slim > nav h1.logo a,
   text-shadow: none;
   background-color: transparent;
   border: 0;
-  background-image: url('../images/bcp-education-logo.png');
+  background-image: url('../images/bcp-education-logo-white.png');
   background-size: contain;
   background-repeat: no-repeat;
 }

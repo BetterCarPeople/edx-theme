@@ -1,0 +1,132 @@
+> .register {
+    @include custom-container();
+
+    margin-top: $layout-top-spacing;
+    background: none;
+
+    $_aside-size: 300px;
+
+    .content {
+        @include bsize(100%, auto);
+
+        margin: 0;
+
+        @media (min-width: $screen-md-min) {
+            margin-right: -$_aside-size;
+            padding-right: $_aside-size + 40px;
+            float: left;
+        }
+
+        a {
+            font: inherit;
+            color: $brand-primary;
+        }
+
+        form {
+            .status {
+                @include custom-alert();
+
+                &.submission-error {
+                    @include custom-alert-error();
+                }
+            }
+
+            .list-input {
+                color: inherit;
+                font: inherit;
+
+                 > li {
+                     position: relative;
+
+                     .checkbox {
+                         padding-left: 0;
+
+                         input {
+                             @include bsquare(auto);
+
+                             margin: 6px 8px 0 0;
+                         }
+                     }
+
+                     .tip {
+                         color: inherit;
+                     }
+                 }
+            }
+
+            label {
+                font: inherit;
+                color: inherit;
+                text-shadow: none;
+            }
+
+            input {
+                font: inherit;
+                color: inherit;
+                display: inline-block;
+                margin: 0;
+            }
+
+            div.squaredThree {
+                @extend .custom-checkbox;
+            }
+
+            .field.is-focused label {
+                color: $brand-primary;
+            }
+
+            input[type=text],
+            input[type=email],
+            input[type=password],
+            textarea {
+                @extend .custom-input;
+            }
+
+            .group-form-personalinformation,
+            .group-form-personalinformation2 {
+                display: none;
+            }
+
+            .group-form-accountacknowledgements {
+                position: relative;
+            }
+
+            .form-actions {
+                button[type=submit] {
+                    @include custom-btn($white, $brand-success);
+
+                    @media (min-width: $screen-md-min) {
+                        @include bsquare(auto);
+
+                        padding-left: 2.5em;
+                        padding-right: 2.5em;
+                    }
+
+                    font-weight: $headings-font-weight;
+                }
+            }
+        }
+    }
+
+    aside {
+        @extend .hidden-xs;
+        @extend .hidden-sm;
+        @include bsize($_aside-size, auto);
+
+        padding: 0;
+        margin: 0;
+        float: right;
+
+        p {
+            font: inherit;
+            color: inherit;
+
+            font-size: 0.9em;
+        }
+
+        a {
+            font: inherit;
+            color: $brand-primary;
+        }
+    }
+}

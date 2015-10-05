@@ -1,0 +1,83 @@
+> .instructor-dashboard-wrapper,
+> .instructor-dashboard-wrapper-2 {
+
+    > .instructor-dashboard-content,
+    > .instructor-dashboard-content-2 {
+        @include bsquare(auto);
+
+        display: block;
+        padding: 0;
+        margin: 0;
+
+        h1 {
+            font: inherit;
+            font-size: $font-size-h2;
+            font-weight: $headings-font-weight;
+            color: $brand-primary;
+            border: 0 none;
+            padding: 0;
+            margin: 0 0 1.5em 0;
+
+            & + hr {
+                display: none;
+            }
+        }
+
+        .wrapper-msg {
+            @include custom-alert();
+            @include custom-alert-warning();
+        }
+
+        ul.instructor-nav {
+            font: inherit;
+            color: inherit;
+            padding: 0;
+            margin: 0;
+            border: 1px solid $border-color;
+            border-radius: $border-radius-base;
+            overflow: hidden;
+
+            li {
+                padding: 0;
+                margin: 0;
+
+                a {
+                    float: none;
+                    display: inline-block;
+                    color: inherit;
+                    padding: 0.5em 1em;
+                    margin: 0;
+
+                    &:hover {
+                        text-decoration: none;
+                        background-color: $body-bg;
+                    }
+
+                    &.active-section {
+                        background-color: $brand-success;
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        input {
+            font: inherit;
+            color: inherit;
+            display: inline-block;
+            vertical-align: baseline;
+            margin: 0;
+        }
+
+        input[type=button] {
+            @include custom-btn($white, $brand-success);
+
+            font-size: 0.9em;
+        }
+
+        .member-list-widget .label {
+            display: table-cell;
+            border-radius: 0;
+        }
+    }
+}

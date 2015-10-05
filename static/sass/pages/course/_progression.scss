@@ -1,0 +1,42 @@
+> .profile-wrapper {
+
+    > .course-info {
+        @include bsquare(auto);
+
+        display: block;
+        padding: 0;
+
+        header {
+            font: inherit;
+            margin: 0 0 3em 0;
+            padding: 0;
+            border: 0 none;
+
+            h1 {
+                font: inherit;
+                font-size: $font-size-h2;
+                font-weight: $headings-font-weight;
+                color: $brand-primary;
+                border: 0 none;
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+        #grade-detail-graph {
+            width: 1045px;
+        }
+
+        .chapters > section h2 {
+            font-family: $font-family-base;
+            color: $text-color;
+        }
+
+        .chapters > section .sections > div {
+            h1, h2, h3, h4, h5, h6 {
+              font-family: $font-family-base;
+              color: $text-color;
+            }
+        }
+    }
+}

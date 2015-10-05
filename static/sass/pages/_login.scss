@@ -1,0 +1,105 @@
+.login-register {
+    @include bsize(100%, auto);
+
+    margin-bottom: 20px;
+
+    a {
+        font: inherit;
+        color: $brand-primary;
+    }
+
+    form {
+        .status {
+            @include custom-alert();
+
+            &.submission-error {
+                @include custom-alert-error();
+            }
+        }
+
+        .list-input {
+            color: inherit;
+            font: inherit;
+
+             > li {
+                 position: relative;
+                 padding-left: 0;
+
+                 &.checkbox {
+                     input {
+                         @include bsquare(auto);
+
+                         margin: 6px 8px 0 0;
+                     }
+                 }
+
+                 .tip {
+                     color: inherit;
+                 }
+             }
+        }
+
+        label {
+            font: inherit;
+            color: inherit;
+            text-shadow: none;
+        }
+    }
+
+    .form-field {
+      input, select {
+        font: inherit;
+        color: inherit;
+        display: inline-block;
+        margin: 0;
+      }
+
+      div.squaredThree {
+        @extend .custom-checkbox;
+      }
+
+      input[type=text],
+      input[type=email],
+      input[type=password],
+      textarea,
+      select {
+        @extend .custom-input;
+      }
+
+      textarea {
+        height: auto;
+      }
+    }
+
+    .nav-btn {
+      @include custom-btn($brand-success, $white);
+      @media (min-width: $screen-md-min) {
+        @include bsquare(auto);
+
+        width: 100%;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+      }
+
+      width: 100%;
+    }
+
+    .action-primary {
+      @include custom-btn($white, $brand-success);
+      @media (min-width: $screen-md-min) {
+        @include bsquare(auto);
+
+        width: 100%;
+        padding-left: 2.5em;
+        padding-right: 2.5em;
+      }
+
+      width: 100%;
+
+      font-weight: $headings-font-weight;
+    }
+
+  .form-type, .toggle-form {
+    margin-bottom: 40px;
+  }
+}

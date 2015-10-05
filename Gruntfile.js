@@ -16,10 +16,20 @@ module.exports = function (grunt) {
         // ## //
 
         watch: {
-            less: {
-                files: ['<%= c.src %>/less/**/*.less'],
-                tasks: ['less', 'autoprefixer', 'cssmin', 'bless']
+            sass: {
+                files: ['<%= c.src %>/sass/**/*.scss']
             }
+        },
+
+        sass: {
+          dist: {
+            files: {
+              'test/theme/bcp.css': 'static/sass/bcp.scss'
+            },
+            options: {
+              style: 'expanded'
+            }
+          }
         },
 
         // ## //

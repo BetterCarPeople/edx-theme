@@ -1,0 +1,14 @@
+body,
+.view-login,
+.view-register,
+.view-passwordreset {
+  background-color: $body-bg;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+@import 'header';
+@import 'modal';
+@import 'footer';

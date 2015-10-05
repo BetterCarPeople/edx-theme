@@ -1,0 +1,162 @@
+.courses {
+  padding: 0;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  .courses-listing {
+
+    .courses-listing-item {
+      @include make-xs-column(12);
+      @include make-sm-column(6);
+      @include make-md-column(6);
+      @include make-lg-column(3);
+
+      margin: 0;
+      display: block;
+      text-align: left;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      .course {
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.125),inset 0 0 0 1px rgba(255,255,255,0.75);
+        background: none;
+        border: 1px solid darken($border-color, 15%);
+        border-radius: 4px;
+        padding: 2px;
+        background-color: $white;
+
+        &:hover {
+          box-shadow: 0 0 10px 0 rgba(0,0,0,0.25),inset 0 0 0 1px rgba(255,255,255,0.75);
+          border-color: $brand-primary;
+
+          .course-image {
+            .cover-image {
+              .learn-more {
+                border: none;
+                font-size: 1.2em;
+              }
+            }
+          }
+        }
+
+        &:hover, :focus {
+          .cover-image:before {
+            @include opacity(0.9);
+            background-color: #333;
+          }
+        }
+
+        .course-info {
+
+          .details {
+            font-family: $headings-font-family;
+            color: $brand-primary;
+            text-transform: none;
+            letter-spacing: normal;
+            -webkit-font-smoothing: auto;
+          }
+
+          .course-name {
+
+            .course-organization {
+              font-family: $headings-font-family;
+              font-size: 1em;
+            }
+
+            margin-top: 0;
+            .course-code {
+              font-size: 0.8em;
+              color: $gray-light;
+            }
+
+            .course-title {
+              font-family: $font-family-base;
+              margin: 20px 0 32px 0;
+            }
+          }
+        }
+
+        .course-image {
+          .cover-image {
+            .learn-more {
+              border: none;
+              font-size: 1.2em;
+            }
+          }
+        }
+
+        .inner-wrapper {
+          border: 0 none;
+
+          .course-preview {
+            box-shadow: none;
+            border-bottom: 1px solid $border-color;
+            background: none;
+            background-color: transparentize($white, 0.1);
+
+            hgroup {
+              width: 100%;
+
+              h2 {
+                font-family: $font-family-sans-serif;
+                font-size: 14px;
+                font-weight: 600;
+                text-shadow: none;
+                color: $black;
+              }
+            }
+
+            .info-link {
+              display: none;
+            }
+
+            .course-number {
+              display: none;
+            }
+          }
+        }
+
+        .status {
+          display: none;
+        }
+
+        .meta-info {
+          box-shadow: none;
+          background: none;
+          border: 0 none;
+          background-color: transparentize($black, 0.2);
+          border-radius: $border-radius-base;
+          right: 5px;
+          bottom: 5px;
+
+          p {
+            font: inherit;
+            font-size: 0.9em;
+            color: $white;
+            margin: 0;
+            padding: 4px 8px;
+          }
+        }
+      }
+    }
+  }
+
+  // Override the standard template's settings
+  &.no-course-discovery .courses-listing .courses-listing-item {
+    @include make-xs-column(12);
+    @include make-sm-column(6);
+    @include make-md-column(6);
+    @include make-lg-column(3);
+
+    @media screen and (min-width: 980px) {
+      float: left;
+      width: 25%;
+      margin-right: inherit;
+    }
+  }
+}
+
+

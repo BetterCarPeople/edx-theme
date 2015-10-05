@@ -1,0 +1,14 @@
+> .find-courses {
+    margin-top: $layout-top-spacing;
+    background: none;
+
+    > header {
+        display: none;
+    }
+
+    .container {
+        @include custom-container();
+    }
+
+    @import 'course/courses';
+}

@@ -8,7 +8,9 @@
 @import 'forum';
 @import 'book';
 
-.wrapper-course-material {
+body,
+body.view-in-course {
+  nav.wrapper-course-material {
     @include bsize(100%, auto);
 
     margin: 0;
@@ -16,116 +18,125 @@
     background: none;
     border-radius: 0;
     box-shadow: none;
-}
 
-.course-material {
-    @include custom-container();
+    .course-material {
+      @include custom-container();
 
-    background: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin-top: $layout-top-spacing / 2;
+      padding: 15px 2%;
+      background: none;
+      box-shadow: none;
+      border-radius: 0;
+      margin-top: $layout-top-spacing / 2;
 
-    .course-tabs {
+      ol.course-tabs {
         border-radius: 0;
         padding: 0;
         margin: 0;
 
         li {
-            margin: 0 0.5em 0 0;
+          margin: 0 0.5em 0 0;
 
-            &:last-child {
-                margin: 0;
+          &:last-child {
+            margin: 0;
 
-                @media (max-width: $screen-xs-max) {
-                    &.right {
-                        @include clearfix();
-                        @include bsquare(auto);
+            @media (max-width: $screen-xs-max) {
+              &.right {
+                @include clearfix();
+                @include bsquare(auto);
 
-                        float: none;
+                float: none;
 
-                        a {
-                            @include bsize(100%, auto);
+                a {
+                  @include bsize(100%, auto);
 
-                            margin-top: 10px;
-                        }
-                    }
+                  margin-top: 10px;
                 }
+              }
+            }
+          }
+
+          a {
+            font: inherit;
+            color: inherit;
+            font-weight: $headings-font-weight;
+            border-radius: $border-radius-base;
+            padding: 8px 12px;
+
+            &:hover {
+              background-color: $white;
             }
 
-            a {
+            &.active {
+              box-shadow: none;
+              text-shadow: none;
+              background: none;
+              background-color: $brand-primary;
+              color: $white;
+            }
+
+            &.new-post-btn {
+              @include custom-btn($white, $brand-success);
+
+              font-size: 0.9em;
+              background-image: none;
+
+              span.icon {
+                @include bsquare(auto);
+
                 font: inherit;
+                font-family: 'FontAwesome';
                 color: inherit;
-                font-weight: $headings-font-weight;
-                border-radius: $border-radius-base;
-                padding: 8px 12px;
+                display: inline;
+                float: none;
+                margin: 0;
+                padding: 0 0.5em 0 0;
+              }
 
-                &:hover {
-                    background-color: $white;
-                }
-
-                &.active {
-                    box-shadow: none;
-                    text-shadow: none;
-                    background: none;
-                    background-color: $brand-primary;
-                    color: $white;
-                }
-
-                &.new-post-btn {
-                    @include custom-btn($white, $brand-success);
-
-                    font-size: 0.9em;
-                    background-image: none;
-
-                    span.icon {
-                        @include bsquare(auto);
-
-                        font: inherit;
-                        font-family: 'FontAwesome';
-                        color: inherit;
-                        display: inline;
-                        float: none;
-                        margin: 0;
-                        padding: 0 0.5em 0 0;
-                    }
-
-                    &:focus, &:hover {
-                      background-image: none;
-                    }
-                }
+              &:focus, &:hover {
+                background-image: none;
+              }
             }
+          }
         }
+      }
     }
+  }
 }
 
+
+
 .container {
-    padding: 0;
-    @include custom-container();
+  padding: 0;
+  @include custom-container();
 
-    margin-top: $layout-top-spacing / 2;
+  margin-top: $layout-top-spacing / 2;
 
-    > div {
-        @include bsquare(auto);
-        @include clearfix();
+  > div {
+    @include bsquare(auto);
+    @include clearfix();
 
-        display: block;
-        padding: 30px;
-        box-shadow: none;
-        background: none;
-        background-color: $white;
-        border: 1px solid $border-color;
-        border-radius: $border-radius-base;
-        overflow: hidden;
+    display: block;
+    padding: 30px;
+    box-shadow: none;
+    background: none;
+    background-color: $white;
+    border: 1px solid $border-color;
+    border-radius: $border-radius-base;
+    overflow: hidden;
+    margin-bottom: 40px;
 
-        @media (max-width: $screen-xs-max) {
-            padding: 10px;
-        }
-
-        .wrap-instructor-info {
-            float: right;
-            margin: 0;
-        }
+    @media (max-width: $screen-xs-max) {
+      padding: 10px;
     }
+
+    .wrap-instructor-info {
+      float: right;
+      margin: 0;
+    }
+  }
+
+  > div.discussion-body {
+    padding: 0;
+  }
 }
 

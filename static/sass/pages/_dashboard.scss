@@ -114,6 +114,7 @@
         position: absolute;
         right: 0;
       }
+
     }
 
     .empty-dashboard-message {
@@ -135,14 +136,20 @@
 
     .listing-courses {
       .course-item {
-        border: 0 none;
-        padding: 0;
         margin: 0 0 30px 0;
         transition: all .1s ease-in;
-        background-color: $white;
-        border: 1px solid $border-color;
         border-radius: $border-radius-base;
         padding: 15px;
+
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.125),inset 0 0 0 1px rgba(255,255,255,0.75);
+        background: none;
+        border: 1px solid darken($border-color, 15%);
+        background-color: $white;
+
+        &:hover {
+          box-shadow: 0 0 10px 0 rgba(0,0,0,0.25),inset 0 0 0 1px rgba(255,255,255,0.75);
+          border-color: $brand-primary;
+        }
 
         @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
           $_margin-right: 10px;
@@ -158,17 +165,13 @@
           }
         }
 
-        &:hover {
-          border-color: $brand-primary;
-        }
-
         &:last-child {
           margin: 0;
         }
 
         .cover {
-          @include bsize(200px, auto);
-
+          @include bsize(180px, auto);
+          margin: 0 20px 0 0;
           background-color: $body-bg;
           transition: none;
           max-height: none;

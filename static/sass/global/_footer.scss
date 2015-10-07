@@ -1,74 +1,70 @@
-.window-wrap {
-  padding-bottom: 0;
+footer.site-footer {
+  background-color: $brand-primary;
+  font-size: 0.9em;
+  color: $body-bg;
+  padding: 20px 0;
+  overflow: hidden;
+  width: 100%;
 
-  footer {
-    background-color: $brand-primary;
-    font-size: 0.9em;
-    color: $body-bg;
-    padding: 20px 0;
-    overflow: hidden;
-    width: 100%;
+  .footer-container {
+    @include custom-container();
 
-    .footer-container {
-      @include custom-container();
+    position: relative;
+    line-height: 16px;
 
-      position: relative;
-      line-height: 16px;
+    a {
+      color: $body-bg;
 
-      a {
+      &:hover {
         color: $body-bg;
-
-        &:hover {
-          color: $body-bg;
-        }
       }
+    }
 
-      ul.links {
-        @extend .list-unstyled;
+    ul.links {
+      @extend .list-unstyled;
 
-        margin: 0;
+      margin: 0;
 
-        li {
-          display: inline-block;
-          margin: 0 5px 0 0;
+      li {
+        display: inline-block;
+        margin: 0 5px 0 0;
+
+        &:after {
+          content: '\2022';
+          padding: 0 0 0 5px;
+        }
+
+        &:last-child {
+          margin: 0;
 
           &:after {
-            content: '\2022';
-            padding: 0 0 0 5px;
+            display: none;
           }
+        }
 
-          &:last-child {
-            margin: 0;
+        a {
+          color: $body-bg;
 
-            &:after {
-              display: none;
-            }
-          }
-
-          a {
+          &:hover {
             color: $body-bg;
-
-            &:hover {
-              color: $body-bg;
-            }
           }
         }
       }
+    }
 
-      .copyright {
-        margin: 0;
-      }
+    .copyright {
+      margin: 0;
+    }
 
-      .by-custom {
-        @extend .hidden-xs;
+    .by-custom {
+      @extend .hidden-xs;
 
-        position: absolute;
-        top: -8px;
-        right: 0;
+      position: absolute;
+      top: -8px;
+      right: 0;
 
-        img {
-          height: 50px;
-        }
+      img {
+        height: 50px;
       }
     }
   }

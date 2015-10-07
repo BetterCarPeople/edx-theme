@@ -174,7 +174,7 @@ body .content-wrapper {
   @import 'login';
   @import 'password-reset';
   @import 'activation';
-
-  @import 'course/main';
 }
+
+@import 'course/main';
 

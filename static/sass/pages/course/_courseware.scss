@@ -1,4 +1,4 @@
-.course-wrapper {
+body div.course-wrapper {
   @include bsize(100%, auto);
 
   padding: 0;
@@ -129,7 +129,7 @@
     }
   }
 
-  .course-content {
+  section.course-content {
     @include bsquare(100%);
     @include make-md-column(9);
     @include make-lg-column(9);
@@ -138,8 +138,8 @@
     display: block;
     margin: 0 0 0 -1px;
     padding: 30px;
-
     border-left: 1px solid $border-color;
+    width: 75%;
 
     @media (max-width: $screen-xs-max) {
       padding: 10px;

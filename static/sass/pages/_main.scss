@@ -28,6 +28,11 @@ h6,
   font-size: 12px;
 }
 
+p {
+  color: inherit;
+  font-family: inherit;
+}
+
 body,
 .view-login,
 .view-register,

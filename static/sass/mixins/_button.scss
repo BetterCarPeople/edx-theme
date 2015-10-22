@@ -15,14 +15,14 @@
     font-size: 14px;
     line-height: 1.42857143;
     border-radius: $border-radius-base;
-
-    @if $bg-color == $white {
-        border-color: $btn-default-border !important;
-        color: $text-color !important;
-    }
+    background-image: none;
 
     @media (max-width: $screen-xs-max) {
         white-space: normal;
+    }
+
+    &:hover, &:disabled, &:hover:not(:disabled) {
+      background-image: none;
     }
 }
 
@@ -32,6 +32,7 @@
     color: $bg-color;
     border-color: $bg-color;
     box-shadow: none;
+    background-image: none;
 
     @if $bg-color == $white {
         border-color: $fg-color;

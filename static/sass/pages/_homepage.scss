@@ -19,6 +19,7 @@
       border-radius: $border-radius-base;
       padding: 60px 10%;
       max-width: 100%;
+      margin: 0 auto;
 
       .title {
         @include bsquare(auto);
@@ -106,6 +107,10 @@
 
   .courses-container {
     padding-top: 48px;
+
+    .highlighted-courses {
+      @include custom-container();
+    }
 
     @import 'course/courses';
   }

@@ -4,17 +4,47 @@
 }
 
 .modal, .leanModal_box {
-    @extend .custom-modal;
+  @extend .custom-modal;
 
-    &.video-modal {
-        @extend .custom-container-modal;
-        @extend .custom-video-modal;
-    }
+  &.video-modal {
+    @extend .custom-container-modal;
+    @extend .custom-video-modal;
+  }
 
-    button.dismiss:not(.close-modal) {
-        @include custom-btn($white, $brand-success);
-    }
+  button.dismiss:not(.close-modal) {
+    @include custom-btn($white, $brand-success);
+  }
 }
+
+body {
+  section.wiki {
+    #cheatsheet-modal {
+      @extend .custom-modal;
+    }
+
+    #hint_id_content {
+      position: relative;
+      top: 0px;
+    }
+
+    .btn {
+      @include custom-btn($text-color, $body-bg);
+
+      &.btn-primary {
+        @include custom-btn($body-bg, $brand-primary);
+      }
+
+      &.btn-danger {
+        @include custom-btn($body-bg, $brand-danger);
+      }
+
+      i.icon {
+        display: none;
+      }
+    }
+  }
+}
+
 
 #forgot-password-modal {
     @extend .custom-modal;

@@ -217,6 +217,10 @@ body header.global.slim {
         position: absolute;
         min-width: 120px;
 
+        &.expanded {
+          display: block;
+        }
+
         &:before {
           display: none;
         }
@@ -255,3 +259,6 @@ body header.global.slim {
     }
   }
 }
+
+
+

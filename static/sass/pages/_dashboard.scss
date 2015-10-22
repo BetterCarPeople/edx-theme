@@ -320,3 +320,38 @@
     }
   }
 }
+
+.dashboard-notifications {
+  box-shadow: none;
+  background: url('../images/bcp-education-hero.png') center center no-repeat;
+  background-size: 100% auto;
+  border: none;
+  background-color: $brand-primary;
+  margin: 0;
+
+  .dashboard-banner {
+    @include bsize(auto, 100%);
+    background-color: rgba(0,0,0,0.5);
+
+    border-radius: $border-radius-base;
+    padding: 60px 10%;
+    max-width: 100%;
+
+    .wrapper-msg.urgency-high {
+      background: transparent;
+      padding: 0;
+      margin: 0;
+
+      .msg {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+    }
+
+    .msg-content {
+      color: #555;
+
+    }
+  }
+}

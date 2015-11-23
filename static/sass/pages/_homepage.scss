@@ -21,6 +21,8 @@
       max-width: 100%;
       margin: 0 auto;
 
+      animation: none !important;
+
       .title {
         @include bsquare(auto);
 

@@ -27,6 +27,7 @@
         line-height: 1.5em;
         font-size: 1em;
         font: $font-family-sans-serif;
+        margin-bottom: 100px;
 
         h1, h2, h3, h4, h5, h6 {
             font-family: $headings-font-family;
@@ -73,7 +74,7 @@
         }
 
         ol {
-            list-style-type: numeric;
+            list-style-type: decimal;
             ol {
                 list-style-type: lower-alpha;
             }

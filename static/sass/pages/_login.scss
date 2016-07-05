@@ -1,6 +1,25 @@
 .login-register {
     @include bsize(100%, auto);
 
+    .login-providers {
+        .login-provider.button-oa2-OvernightBDC {
+            width: 80%;
+            min-height: 100px;
+            font-size: 2.8em;
+            padding: 0 0 0 70px;
+            margin: 20px 0 40px;
+
+            .icon {
+                padding: 34px 10px;
+            }
+        }
+
+        .login-provider.button-oa2-OvernightBDC:focus {
+            background: #00699e;
+            box-shadow: none;
+        }
+    }
+
     margin-bottom: 20px;
 
     a {

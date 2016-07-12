@@ -8,6 +8,12 @@ body,
 p {
   line-height: 1.3em;
 }
+.course-title {
+text-transform: none !important;
+}
+.course-organization {
+text-transform: none !important;
+}
 
 @import 'header';
 @import 'modal';

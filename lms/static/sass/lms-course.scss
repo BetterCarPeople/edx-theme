@@ -1,0 +1,29 @@
+@import 'bourbon/bourbon';
+@import 'vendor/bi-app/bi-app-ltr'; // set the layout for left to right languages
+
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/font_face';
+@import 'base/mixins';
+
+@import 'build-course'; // shared app style assets/rendering
+
+
+/*
+// LMS - CSS application architecture
+// Version 1 styling (pre-Pattern Library)
+// ====================
+
+@import 'bourbon/bourbon';
+// @import 'partials/base/variables';
+// @import 'lms/static/sass/lms-main-v1';
+
+@import 'vendor/bi-app/bi-app-ltr'; // set the layout for left to right languages
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/font_face';
+@import 'base/mixins';
+
+@import 'build-course'; // shared app style assets/rendering
+
+*/

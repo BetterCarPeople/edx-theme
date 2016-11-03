@@ -7,7 +7,7 @@
     @include box-sizing(border-box);
     @include outer-container;
     $grid-columns: 12;
-    background: $white;
+    background: $blue;
     min-height: 100%;
     width: 100%;
     $third-party-button-height: ($baseline*1.75);
